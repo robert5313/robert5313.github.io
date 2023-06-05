@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  margin: 0;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  gap: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+}
+.navbar-in {
+  position: relative;
+  background-color: green;
+  color : white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0;
+  gap: 2rem;
+  padding: 1rem;
+}
+.navbar-in:hover{
+  background-color: lightgreen;
+  color: lawngreen;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.portfolio {
+  color: inherit;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.portfolio:hover{
+  background-image: none;
+}
+
+.navbar-in ul{
+  font-size: 20;
+  padding: 0;
+  margin: 10px 20px;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+#navbar-in ul li:hover{
+  color: red;
+}
+
+.blockquote mb-0{
+  text-overflow: aliceblue;
+  
+}
+
+
+.card-img {
+  cursor: pointer;
+  flex-direction: flex-start;
+  width: 500px;
+  height: 400px;
+  padding: 10px;
+  display: flex;
+  margin-top: 5px;
+  align-items: left;
+  position: relative;
+  transform: translateY(-100);
+  border-radius: 5px;
+  box-shadow: 0 0 5px;
+  transition: all 1.4s ease;
+  overflow-wrap: break-word;
+}
+
+.card-img:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px;
+  transition: all 0.4s ease;
+}
+
+.title {
+  bottom: 0;
+  object-position: 2px 2px;
+  font-size: 20px;
+  text-decoration-color: rgb(0, 102, 255);
+
+
+}
+.title:hover{
+  cursor: pointer;
+  font-family: serif;
+  text-shadow: 60px;
+}
+.details{
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-family: cursive;
+  gap: 2px;
+}
+.prof {
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-style: Arial;
+}
+.prof h4{
+  font-family: Arial;
+  text-transform: uppercase;
+  font-size: 20px;
+  animation-duration: 6s;
+}
+
+.prof:hover {
+  flex-wrap: wrap;
+}
+.container {
+  text-align: justify;
+  padding: 5px;
+  margin: none;
+  background-color: antiquewhite;
+}
+
+
+.first {
+  font-size: bold;
+  font-family: sans-serif;
+  justify-content: center;
+}
+.head-h4 {
+  align-items: center;
+  justify-content: center;
+  scroll-behavior: smooth;
+
+}
+button{
+  color: blue;
+}
+button:hover{
+  cursor: pointer;
+  color: blueviolet;
+  font-size: 15px;
+}
+
+
+footer{
+  display: flex;
+  font-family: Verdana;
+  color: grey;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  position: bottom;
+  font-size: 24px;
+  background-color: rgb(50, 50, 50);
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.about img{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: rgb(50, 50, 50);
+  box-shadow: 0 0 1px;
+}
+.about progress:hover{
+  cursor: pointer;
+  animation-duration: 2s;
+  box-shadow: 0 0 10px;
+  transition: all 0.4s ease;
+}
+.about h4{
+  font-family: sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(50, 50, 50);
+}
+.about progress::selection{
+  background-color: rgb(50, 50, 50);
+}
+.about.a{
+  font-size: medium;
+  color: blue;
+  font-weight: 700;
+}
+
+.clients{
+  display: grid;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.services{
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  border: 2px solid blue;
+  background-image: url("https://s3.studytonight.com/tutorials/uploads/pictures/1629713661-101156.png");
+}
+.services.img{
+  width: 100%;
+}
+.form-content{
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  background-color: #cccccc;
+  height: 350px;
+}
+.form-content input[type=text]{
+  width: 92%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+.form-content input[type=password]{
+  width: 92%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+h1 {
+  text-align: center;
+}
+.btn{
+  background-color: blue;
+  color: white;
+  padding: 16px;
+  margin: 5px;
+}
+label{
+  color: blue;
+  font-size: 12px;
+}
+.btn:hover{
+  background-color: black;
+}
