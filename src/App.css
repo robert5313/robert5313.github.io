@@ -41,7 +41,7 @@ body {
   font-family: sans-serif;
 }
 .portfolio:hover{
-  background-image: none;
+  background-image: url("https://i.pinimg.com/564x/87/5f/5d/875f5d5fa4ca871de4ecb556a660776c.jpg");
 }
 
 .navbar-in ul{
@@ -268,4 +268,12 @@ label{
 }
 .btn:hover{
   background-color: black;
+}
+#dark {
+  background-color: #46045e;
+  color: #cccccc;
+}
+#light {
+  background-color: #f3ebf6;
+  color: black;
 }

@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
     return ( <div className="navbar-in">
         <Link className="portfolio">
-            Portfolio
-            </Link>
+            <h1>Portfolio</h1></Link>
+        <img className="nav-logo" src="https://freeicons.io/business-and-employees-7/coordinator-icon-434824" alt="" /> 
+            
 
         <ul>
             <li>
